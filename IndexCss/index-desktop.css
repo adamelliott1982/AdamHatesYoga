@@ -1,0 +1,46 @@
+@media (min-width: 1080px){
+
+/* body{
+    background: red;
+} */
+
+/* GRID LAYOUT */
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    'article-1    article-2    article-3'
+    'article-1    article-2    article-3'
+    'yoga-video   yoga-video   yoga-video'
+    'article-4    article-4    article-4'
+    'disclaimer   disclaimer   disclaimer'
+    ; 
+}
+
+
+
+/* DECKTOP SPECIFIC STYLING */
+
+#article-2 img{
+    display: block;
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+#article-3 img{
+    display: block;
+    width: 90%;
+}
+#article-4 img{
+    width: 25%;
+    float: right;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+}

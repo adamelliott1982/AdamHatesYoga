@@ -1,0 +1,44 @@
+@media (min-width: 600px){
+
+    /* body{
+        background: yellow;
+    } */
+
+    /* GRID LAYOUT */
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        'article-1  article-1  article-2'
+        'yoga-video yoga-video yoga-video'
+        'article-3  article-4  article-4'
+        'disclaimer disclaimer disclaimer'
+        ;
+    }
+
+
+    /* NAV TABLET STYLING */
+    nav ul{
+        height: 50px;
+        display: flex;
+    }
+    nav ul li{
+        flex: 1 1 auto;
+    }
+
+
+    #article-3 img{
+        display: none;
+    }
+    #article-4 img{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+
+
+
+}  

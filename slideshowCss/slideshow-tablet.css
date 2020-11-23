@@ -1,0 +1,25 @@
+@media (min-width: 600px){
+
+
+    body{
+        background-color: yellow;
+    }
+    nav ul{
+        height: 50px;
+        display: flex;
+    }
+    nav ul li{
+        flex: 1 1 auto;
+    }
+    nav ul{
+        display: flex;
+    }
+
+    img{
+            max-height: 50vh;
+    }
+
+
+
+
+}

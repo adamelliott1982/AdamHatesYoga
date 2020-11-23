@@ -1,0 +1,120 @@
+@import url(../IndexCss/index-mobile.css);
+@import url(../IndexCss/index-tablet.css);
+@import url(../IndexCss/index-desktop.css);
+
+
+
+
+
+
+/* UNIVERSAL STYLES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: lightblue;
+}
+body{
+    background-image: url(../media/bglightblue2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+article{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(173, 216, 230, 0.5);
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+p{
+    font-size: 1.25rem;
+    padding: 20px;
+}
+img{
+    border-radius: 10px;
+}
+
+
+
+
+/* HEADER */
+
+
+
+
+/* NAV START */
+nav{
+    background: rgba(128, 128, 128, 0.5);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+nav ul li:hover{
+    background: black;
+}
+nav ul li a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: lightblue;
+}
+/* NAV END */
+
+
+
+
+/* MAIN START */
+#article-2{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#article-4{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* MAIN END */
+
+
+
+
+/* DISCLAIMER START */
+#disclaimer{
+    background: rgba(255, 255, 0, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+#disclaimer p{
+    font-size: .75rem;
+}
+/* DISCLAIMER END */
+
+
+
+
+/* FOOTER START */
+footer{
+    background: rgba(128, 128, 128, 0.5);
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    font-size: 1.2rem;
+}

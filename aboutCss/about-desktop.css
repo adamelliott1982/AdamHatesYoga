@@ -1,0 +1,22 @@
+@media (min-width: 1080px){
+
+    body{
+        background-color: red;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        'header    header    header'
+        'nav       nav       nav'
+        'article-1 article-2 article-2'
+        'footer    footer    footer'
+        ;
+    }
+
+
+
+
+
+
+
+
+}

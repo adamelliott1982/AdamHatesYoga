@@ -1,0 +1,148 @@
+@import url(../slideshowCss/slideshow-mobile.css);
+@import url(../slideshowCss/slideshow-tablet.css);
+@import url(../slideshowCss/slideshow-desktop.css);
+
+/* UNIVERSAL STYLES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: lightblue;
+}
+body{
+    min-height: 100vh;
+    position: relative;
+    background-image: url(../media/bglightblue2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+main{
+    padding-bottom: 100px;
+}
+article{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(173, 216, 230, 0.5);
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+p{
+    font-size: 1.25rem;
+    padding: 20px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+/* UNIVERSAL STYLES END */
+
+
+
+
+
+/* HEADER */
+
+/* HEADER END*/
+
+
+
+
+
+/* NAV START */
+nav{
+    background: rgba(128, 128, 128, 0.5);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+nav ul li:hover{
+    background: black;
+}
+nav ul li a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: lightblue;
+}
+/* NAV END */
+
+
+
+
+
+
+
+
+/* MAIN START */
+
+
+#article-2{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#article-4{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#yoga-video{
+    width: 100%;
+    display: block;
+    margin: auto;
+} 
+
+/* MAIN END */
+
+
+
+
+
+/* BUTTON BIN */
+#button-bin{
+    width: 80vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 30vw;
+    height: 50px;
+    font-size: 1rem;
+}
+/* BUTTON BIN END*/
+
+
+
+
+
+
+
+/* FOOTER START */
+footer{
+    bottom: 0px;
+    position: absolute;
+    width: 100vw;
+    background: rgba(128, 128, 128, 0.5);
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    font-size: 1.2rem;
+}

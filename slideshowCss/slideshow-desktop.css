@@ -1,0 +1,16 @@
+@media (min-width: 1080px){
+
+    body{
+        background-color: red;
+    }
+
+
+    img{
+        max-height: 60vh;
+    }
+
+
+
+
+
+}

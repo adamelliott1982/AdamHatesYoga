@@ -1,0 +1,33 @@
+@media (min-width: 600px){
+    body{
+        background: yellow;
+    }
+
+        /* GRID LAYOUT */
+        body{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: .1fr .1fr 9.3fr .1fr;
+            grid-template-areas:
+            'header     header'
+            'nav        nav'
+            'article-1  article-2'
+            'footer     footer';
+        }
+
+        nav ul{
+            height: 50px;
+            display: flex;
+        }
+        nav ul li{
+            flex: 1 1 auto;
+        }
+        #article-2 img{
+            display: block;
+            margin: auto;
+        }
+
+
+
+
+}

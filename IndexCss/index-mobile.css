@@ -1,0 +1,92 @@
+
+/* body{
+    background: green;
+} */
+
+
+
+/* GRID AREA DESIGNATIONS */
+header{grid-area: header;}
+nav{grid-area: nav;}
+#article-1{grid-area: article-1;}
+#article-2{grid-area: article-2;}
+#article-3{grid-area: article-3;}
+#article-4{grid-area: article-4;}
+#yoga-video{grid-area: yoga-video;}
+#disclaimer{grid-area: disclaimer;}
+footer{grid-area: footer;}
+/* GRID ASSIGNMENT */
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'header'
+    'nav'
+    'main'
+    'footer'
+    ;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'article-1'
+    'article-2'
+    'yoga-video'
+    'article-3'
+    'article-4'
+    'disclaimer'
+    
+    
+    ;
+}
+
+
+/* HEADER */
+#intro-video{
+    width: 90vw;
+    max-height: 80vh;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+#yoga-video{
+    width: 90vw;
+    max-height: 80vh;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+#article-1{
+    display: block;
+}
+#article-1 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+#article-2{
+    display: block;
+}
+#article-2 img{
+    display: none;
+}
+
+#article-3{
+    display: block;
+}
+#article-3 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+#article-4{
+    display: block;
+}
+#article-4 img{
+    display: none;
+}

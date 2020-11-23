@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Slideshow</title>
+    <link rel="stylesheet" href="./slideshowCss/slideshow-root.css">
+</head>
+<body>
+    <header>
+		<h2>Gallery Slideshow</h2>
+	</header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Photos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="./media/gallery1.JPG" alt="yoga photo" id="yoga-pic">
+        
+        
+        <div id="button-bin">
+            <button onclick="previousPicture()">Previous Picture</button>
+
+            <button onclick="nextPicture()">Next Picture</button>
+        </div>
+
+    </main>
+    
+    <footer>	
+        <p>
+            www.AdamHatesYoga.com &copy;2020, all rights reserved
+        </p>
+    </footer>
+
+    <script src="./slideshow.js"></script>
+</body>
+
+</html>

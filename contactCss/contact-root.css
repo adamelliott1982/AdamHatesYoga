@@ -1,0 +1,143 @@
+@import url(./contact-mobile.css);
+@import url(./contact-tablet.css);
+@import url(./contact-desktop.css);
+
+/* GRID AREA ASSIGNMENT */
+header{grid-area: header;}
+nav{grid-area: nav;}
+section{grid-area: section;}
+article{grid-area: article;}
+footer{grid-area: footer;}
+
+
+
+
+
+
+/* UNIVERSAL STYLES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: lightblue;
+}
+body{
+    background-image: url(../media/bglightblue2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+
+}
+main{
+    padding-bottom: 100px;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+p{
+    font-size: 1.25rem;
+    padding: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+/* UNIVERSAL STYLING END */
+
+
+
+
+
+/* NAV */
+nav{
+    background: rgba(128, 128, 128, 0.5);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+nav ul li:hover{
+    background: black;
+}
+nav ul li a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: lightblue;
+}
+/* END NAV */
+
+
+
+
+
+
+
+/* MAIN */
+
+/* ---QUESTION ARTICLE */
+#question-article{
+    background: rgba(255, 255, 255, 0.50);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+/* ---QUESTION BOX */
+
+#question-box{
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.50);
+    padding: 10px;
+    margin: 10px;
+}
+#question-box textarea{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+#question-box button{
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+
+/* END MAIN */
+
+
+
+
+
+
+
+/* FOOTER START */
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    background: rgba(128, 128, 128, 0.5);
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    font-size: 1.2rem;
+}
