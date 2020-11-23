@@ -1,18 +1,26 @@
 @media (min-width: 600px){
-    body{
+    /* body{
         background: yellow;
-    }
+    } */
 
         /* GRID LAYOUT */
         body{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: .1fr .1fr 9.3fr .1fr;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
             grid-template-areas:
-            'header     header'
-            'nav        nav'
-            'article-1  article-2'
-            'footer     footer';
+            'header'
+            'nav'
+            'main'
+            'footer';
+        }
+        main{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+            'article-1 article-2'
+            'resources resources'
+            ;
         }
 
         nav ul{

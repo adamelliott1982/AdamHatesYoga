@@ -9,9 +9,17 @@
         grid-template-areas:
         'header'
         'nav'
+        'main'
+        'footer';
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
         'article-1'
         'article-2'
-        'footer';
+        'resources'
+        ;
     }
 
 
