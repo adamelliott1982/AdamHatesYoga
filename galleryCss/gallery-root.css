@@ -6,6 +6,7 @@
 /* GRID AREA DESIGNATIONS */
 header{grid-area: header;}
 nav{grid-area: nav;}
+#gallery-banner{grid-area: gallery-banner;}
 #box-1{grid-area: box-1;}
 #box-2{grid-area: box-2;}
 #box-3{grid-area: box-3;}
@@ -85,7 +86,29 @@ nav ul li a:hover{
 /* NAV END */
 
 
+/* SLIDESHOW BUTTON */
+#slideshow-button{
+    background: lightgrey;
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+#slideshow-button a{
+    color: black;
+    text-decoration: none;
+}
 
+
+
+
+
+/* GALLERY BANNER */
+#gallery-banner{
+    color: white;
+    text-shadow: 0 0 5px black;
+}
 
 
 /* PHOTO GALLERY START */
@@ -124,6 +147,19 @@ img:hover{
 /* PHOTO GALLERY END */
 
 
+/* RETURN TO TOP BUTTON */
+#return-to-top-button{
+    background: lightgrey;
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+#return-to-top-button a{
+    text-decoration: none;
+    color: black;
+}
 
 
 

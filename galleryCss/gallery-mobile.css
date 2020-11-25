@@ -9,6 +9,7 @@ img{
 #photo-gallery{
     grid-template-columns: 1fr;
     grid-template-areas:
+    'gallery-banner'
     'box-1'
     'box-2'
     'box-3'
