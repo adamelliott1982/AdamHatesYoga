@@ -45,6 +45,11 @@ p{
 img{
     border-radius: 10px;
 }
+cite{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
 
 
 
